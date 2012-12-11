@@ -1,0 +1,39 @@
+{
+  "name": "cl10n",
+  "version": "0.0.1",
+  "description": "Extract and use i18n data from CLDR in JSON format. Use built-in methods to format numbers.",
+  "main": "index.js",
+  "dependencies": {
+    "async": "~0.1.22",
+    "jsdom": "~0.3.1",
+    "jquery": "~1.8.3",
+    "underscore": "~1.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "cldr",
+    "i18n",
+    "l10n",
+    "internationalization",
+    "localization",
+    "formatting",
+    "numbers"
+  ],
+  "author": "ragulka",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/JackFranklin/filesearch/blob/master/LICENSE-MIT"
+    }
+  ],
+  "repository":{
+    "type" : "git",
+    "url" : "https://github.com/ragulka/cl10n.git"
+  },
+  "bin": {
+    "xcldr" : "./bin/cli.js"
+  }
+}
