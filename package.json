@@ -9,7 +9,10 @@
     "jquery": "~1.8.3",
     "underscore": "~1.4.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha" : "",
+    "should" : ""
+  },
   "scripts": {
     "test": "test"
   },
